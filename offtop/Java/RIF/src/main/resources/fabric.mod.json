@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rif",
+  "version": "${version}",
+  "name": "RIF",
+  "description": "Replace server-side item frame entities with client-side ones",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rif/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.mart0n.rif.client.RifClient"
+    ],
+    "main": [
+      "net.mart0n.rif.Rif"
+    ]
+  },
+  "mixins": [
+    "rif.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

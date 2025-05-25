@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "dimension":"minecraft:overworld",
+      "source": "<path>",
+      "name": "pack",
+      "enabled": true,
+      "position": [0, 100, 0],
+      "rotation": 0,
+      "mirrored": false
+    }
+  ]
+}
